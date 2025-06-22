@@ -26,7 +26,7 @@ return require('packer').startup(function(use)
     use("simrat39/rust-tools.nvim")
     use("puremourning/vimspector")
      -- Completion framework:
-    use("hrsh7th/nvim-cmp") 
+    use("hrsh7th/nvim-cmp")
 
     -- LSP completion source:
     use("hrsh7th/cmp-nvim-lsp")
@@ -34,15 +34,18 @@ return require('packer').startup(function(use)
     -- Useful completion sources:
     use("hrsh7th/cmp-nvim-lua")
     use("hrsh7th/cmp-nvim-lsp-signature-help")
-    use("hrsh7th/cmp-vsnip")                             
-    use("hrsh7th/cmp-path")                           
-    use("hrsh7th/cmp-buffer") 
+    use("hrsh7th/cmp-vsnip")
+    use("hrsh7th/cmp-path")
+    use("hrsh7th/cmp-buffer")
     use("hrsh7th/vim-vsnip")
     use {
         "williamboman/mason.nvim",
         "williamboman/mason-lspconfig.nvim",
         "neovim/nvim-lspconfig",
     }
+
+    -- wakatime (hack-club)
+    use("wakatime/vim-wakatime")
 
     use {"nvim-tree/nvim-tree.lua"}
     use {"nvim-tree/nvim-web-devicons"}
