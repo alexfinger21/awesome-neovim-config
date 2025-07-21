@@ -1,6 +1,3 @@
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
 require("mason").setup()
 require("mason-lspconfig").setup({
   ensure_installed = { "clangd" }, -- add more servers as needed
