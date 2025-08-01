@@ -40,7 +40,7 @@
   use("hrsh7th/vim-vsnip")
 
   -- File Explorer
-  use("alexfinger21/nvim-tree.lua")
+  use("nvim-tree/nvim-tree.lua")
   use("nvim-tree/nvim-web-devicons")
 
   -- Autopairs

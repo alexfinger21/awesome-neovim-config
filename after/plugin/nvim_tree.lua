@@ -38,6 +38,7 @@ vim.api.nvim_create_autocmd("BufWinEnter", {
         end
 
         local filepath = vim.api.nvim_buf_get_name(args.buf)
+        open = true
         toggle_tree()
     end
 })
