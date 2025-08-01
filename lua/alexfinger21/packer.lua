@@ -1,4 +1,4 @@
-return require('packer').startup(function(use)
+ return require('packer').startup(function(use)
   -- Packer manages itself
   use 'wbthomason/packer.nvim'
 
@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
   use("hrsh7th/vim-vsnip")
 
   -- File Explorer
-  use("nvim-tree/nvim-tree.lua")
+  use("alexfinger21/nvim-tree.lua")
   use("nvim-tree/nvim-web-devicons")
 
   -- Autopairs
