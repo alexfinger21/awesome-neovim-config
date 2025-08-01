@@ -31,7 +31,6 @@ vim.api.nvim_create_autocmd("BufWinEnter", {
     callback = function(args)
         local buf = args.buf
         local ft = vim.api.nvim_buf_get_option(buf, "filetype")
-        print(string.len(ft), open)
 
         if string.len(ft) == 0 or ignore_bufs[ft] then
             return
