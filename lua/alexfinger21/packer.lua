@@ -2,10 +2,9 @@ return require("packer").startup(function(use)
     -- Packer manages itself
     use "wbthomason/packer.nvim"
 
-    -- Mason + LSP
-    use("williamboman/mason.nvim")
-    use("williamboman/mason-lspconfig.nvim")
-    use("neovim/nvim-lspconfig")
+  -- Mason + LSP
+  use("williamboman/mason.nvim")
+  use("williamboman/mason-lspconfig.nvim")
 
     -- Telescope
     use {
@@ -23,11 +22,11 @@ return require("packer").startup(function(use)
     })
     use("nvim-treesitter/playground")
 
-    -- Git, navigation, utils
-    use("ThePrimeagen/harpoon")
-    use("mbbill/undotree")
-    use("tpope/vim-fugitive")
-    use("simrat39/rust-tools.nvim")
+  -- Git, navigation, utils
+  use("ThePrimeagen/harpoon")
+  use("mbbill/undotree")
+  use("tpope/vim-fugitive")
+  use("simrat39/rust-tools.nvim")
 
     -- Completion
     use("hrsh7th/nvim-cmp")
@@ -39,9 +38,10 @@ return require("packer").startup(function(use)
     use("hrsh7th/cmp-buffer")
     use("hrsh7th/vim-vsnip")
 
-    -- File Explorer
-    use("nvim-tree/nvim-tree.lua")
-    use("nvim-tree/nvim-web-devicons")
+  -- File Explorer
+  use("nvim-tree/nvim-tree.lua")
+  use("nvim-tree/nvim-web-devicons")
+  use("trevorhauter/gitportal.nvim")
 
     -- Autopairs
     use({
